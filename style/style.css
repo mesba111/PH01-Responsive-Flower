@@ -62,7 +62,53 @@
     height: 355px;
     width: 50%;
 }
-
+/* plant section */
+.our-plant{
+   max-width: 1140px;
+   margin: 0 auto;
+    text-align: center;
+}
+.plants{
+    width: 1140px;
+    padding: 20px 16px;
+}
+.plant-title{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.plant-discription{
+    font-size: 22px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.plant-cart{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 49px;
+    gap: 20px;
+}
+.plant-cart img{
+    height: 322.98px;
+    width: auto;
+}
+.plant-cart p{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.plant-cart h5{
+    font-size: 22px;
+    font-weight: bold;
+}
+.plant-cart button{
+    color: white;
+    background-color: #E95A08;
+    height: 50px;
+    width: 270px;
+    border: none;
+    
+}
 @media screen and (max-width: 576px) {
     .hide{
         display: none;
@@ -81,6 +127,7 @@
         margin-left: 16px;
         margin-right: 16px;
         gap: 60px;
+        margin-bottom: 60px;
     }
     .fresh-right{
         width: 393.18px;
@@ -95,156 +142,40 @@
         font-size: 24px;
         height: 50px;
         width: 361px;
-        
     }
     .fresh-discription{
         font-size: 14px;
         margin-top: 13px;
     }
-}
-
-
-/* .Fresh-flower{
-    display: flex;
-    height: 461px;
-    margin-top: 120px;
-    align-items: center;
-    
-}
-.fresh-left{
-    height: 299px;
-    width: 50%;
-    padding-top: 162px;
-}
-.fresh-right{
-    margin-top: 106px;
-    height: 355px;
-    width: 50%;
-}
-.fresh-title{
-    font-size: 65px;
-    height: 89px;
-    width: 517px;
-}
-.fresh-title-color{
-    color: #E95A08;
-}
-.fresh-discription{
-    font-size: 22px;
-    margin-top: 13px;
-}
-@media screen and (max-width: 576px) {
-    .hide {
-        display: none;
-    }
-
-    .navbar {
+    .plants{
+        margin-bottom: 16px;
         width: 100%;
-        margin: 13px 16px 28px 16px;
-        align-items: center;
     }
-
-    .nav-logo {
-        height: 38px;
-        width: 63px;
+    .plant-title{
+    font-size: 24px;
     }
-    .Fresh-flower {
-        flex-direction: column-reverse;
-        margin-top: 50px;
+    .plant-discription{
+        font-size: 14px;
+        max-width: 100%;
+        margin-left: 28.5px;
+        margin-right: 28.5px;
     }
-
-    .fresh-left{
-        font-size: 24px;
-        height: 33px;
-        width: 191px;
+    .plant-cart{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        padding: 0 16px;
     }
-    .fresh-left,
-    .fresh-right {
+    .plant-cart> div{
         width: 100%;
-        margin: 0;
-        padding: 0;
 
     }
-    .fresh-title {
-        font-size: 24px;
-        width: 100%;
-        margin-left: 16px;
-        margin-right: 16px;
-        margin-top: 13px;
-    }
-    .fresh-right img {
-        width: 100%;
-        height: 245px;
-    }
+    .plant-cart img {
+    width: 100%;
+    height: auto;
+  }
 
-
-
-
-
-
-    .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
-    padding: 0; 
+  .plant-cart button {
+    width: 100%;
+    max-width: 100%;
+  }
 }
-.nav-right{
-    display: flex;  
-    text-align: center;
-    padding-top: 18px;
-    padding-bottom: 18px;
-}
-.cart{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    white-space: nowrap;
-    
-}
-.nav-logo{
-    height: 82px;
-    width: 135px;
-    display: block;
-}
-.nav-item{   
-    display: flex; 
-    list-style: none;
-    margin-right: 48px;
-}
-.nav-link{
-    text-decoration: none;
-}
-.nav-color{
-    color: #000000;
-}
-
-.gray-color{
-    color: #8987A1;
-}
-.side-size{
-
-      max-width: 1140px;
-     margin-left: 150px;
-     margin-right: 150px;
-    
-}
-@media screen and (max-width: 576px) {
-    .hide {
-        display: none;
-    }
-
-    .navbar {
-        width: 100%;
-        margin: 13px 16px 28px 16px;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .nav-logo {
-        height: 38px;
-        width: 63px;
-    }
-}
-
-} */
