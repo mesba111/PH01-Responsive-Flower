@@ -1,0 +1,48 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 590px;
+    margin: 30px 150px 0px 150px;
+}
+.nav-right{
+    display: flex;  
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.cart{
+    display: flex;
+    gap: 10px;
+    
+}
+.nav-logo{
+    height: 82px;
+    width: 135px;
+}
+.nav-item{   
+    display: flex; 
+    list-style: none;
+    margin-right: 48px;
+}
+
+/* shared */
+.gray-color{
+    color: #8987A1;
+}
+
+@media screen and (max-width: 576px) {
+    .hide{
+        display: none;
+    }
+    .navbar{
+        width: 100%;
+        gap: 185px;
+        margin: 13px 16px 0px 16px;
+    }
+    .nav-logo{
+    height: 38px;
+    width: 63px;   
+}
+}
