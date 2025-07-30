@@ -10,8 +10,7 @@
     display: flex;
     gap: 10px;
     align-items: center;
-    white-space: nowrap;
-    
+    white-space: nowrap; 
 }
 .nav-logo{
     height: 82px;
@@ -106,9 +105,76 @@
     background-color: #E95A08;
     height: 50px;
     width: 270px;
-    border: none;
-    
+    border: none;  
 }
+.deals{
+      max-width: 1140px;
+     margin: 0 auto;
+     text-align: center;
+}
+
+.two-img{
+    display: block;
+    gap: 25px;
+}
+.img-plant{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 423px;
+}
+/* deals */
+
+/* .card-left{
+    display: block;
+}
+.grid-banner{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.overlay{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+} */
+
+
+/* footer */
+.footer{
+    height: 248px;
+    width: 1120px;
+    margin: 50px 160px;
+    display: grid;
+    grid-template-columns: 359px 85px 128px 216px;
+    gap: 110.67px;
+}
+.middle1 {
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  column-gap: 10px;
+  white-space: nowrap;
+}
+.middle1 ul{
+ list-style: none;
+ display: grid;
+ grid-column: 32px;
+ gap: 32px;
+}
+
+.middle1 ul li a{
+    text-decoration: none;
+}
+
+.icon{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 24px;
+    align-items: center;
+}
+.footer-left{
+    width: 359px;
+}
+
+
 @media screen and (max-width: 576px) {
     .hide{
         display: none;
@@ -178,4 +244,28 @@
     width: 100%;
     max-width: 100%;
   }
+  /* footer */
+  .footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin: 50px 14px 5px 20px;
+  }
+  .middle1{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+  .icon{
+    display: flex;
+    gap: 16px;
+    justify-content: flex-start;
+    padding-bottom: 50px;
+}
+.middle1 ul {
+    padding: 0;
+    margin: 0;
+    gap: 8px;
+  }
+
 }
