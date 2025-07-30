@@ -51,7 +51,7 @@
 .fresh-title{
     font-size: 65px;
 }
-.fresh-discription{
+.fresh-discription {
     font-size: 22px;
 }
 .fresh-left{
@@ -122,20 +122,46 @@
     grid-template-columns: repeat(2, 1fr);
     height: 423px;
 }
-/* deals */
 
-/* .card-left{
-    display: block;
-}
-.grid-banner{
-    display: grid;
-    grid-template-columns: 30% 70%;
-}
-.overlay{
+/* flower & plants lover */
+.flower-plant{
     display: flex;
-     justify-content: center;
+    margin-top: 210.12px;  
+    gap: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
     align-items: center;
-} */
+    
+}
+.flower-plant-left{
+    position: relative;
+    width: 50%;
+}
+.flower-plant-left-img{
+    width: 100%;
+    height: auto;
+}
+.trusted{
+    position: absolute;
+    height: 286px;
+    width: 286px;
+    right: -100px;
+    top: -100px;
+    
+}
+ .flower-plant-right{
+    width: 50%;
+    padding: 30px;
+} 
+.flower-plant-right h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.flower-plant-discription{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
 
 
 /* footer */
