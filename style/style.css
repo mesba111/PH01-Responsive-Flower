@@ -1,3 +1,17 @@
+
+.ancizar-serif-noto {
+  font-family: "Ancizar Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.inter-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 360;
+  font-style: normal;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -25,7 +39,6 @@
 }
 .nav-item{   
     display: flex; 
-   
     margin-right: 48px;
 }
 .nav-link{
@@ -160,6 +173,9 @@ text-align: center;
 
 .flower-plant-discription{
     font-size: 22px;
+}
+.flower-plant-discription{
+    margin-bottom: 20px;
 }
 
 /* latest-deals */
@@ -310,11 +326,12 @@ body, html {
     display: grid;
     grid-template-columns: repeat(4, auto);
     gap: 24px;
-    align-items: center;
+    top: 0px;
 }
 .footer-left{
     width: 359px;
 }
+
 
 
 @media screen and (max-width: 576px) {
@@ -476,6 +493,7 @@ body, html {
   }
 .join-bunch-submit input{
     width: 218px;
+    
 }
 .join-bunch-submit button{
     width: 103px;
@@ -488,7 +506,7 @@ body, html {
   }
 
   /* footer */
-  .footer{
+   .footer{
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -496,8 +514,8 @@ body, html {
     margin: 50px 14px 5px 20px;
   }
   .middle1{
-    display: grid;
-    grid-template-columns: repeat(2, auto);
+    display: block;
+    gap: 12px;
   }
   .icon{
     display: flex;
@@ -509,6 +527,9 @@ body, html {
     padding: 0;
     margin: 0;
     gap: 8px;
+  }
+  .middle1 ul{
+    gap: 12px;
   }
 
 }
