@@ -65,7 +65,7 @@
 .our-plant{
    max-width: 1140px;
    margin: 0 auto;
-    text-align: center;
+text-align: center;
 }
 .plants{
     width: 1140px;
@@ -160,9 +160,125 @@
 
 .flower-plant-discription{
     font-size: 22px;
-    margin-bottom: 20px;
 }
 
+/* latest-deals */
+.latest-deals{
+    margin-top: 134px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.deals-title{
+    font-size: 50px;
+}
+.latest-deals-image{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 423px;
+    margin-top: 120px;
+    gap: 28px;
+}
+.latest-deals-left{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 25px; 
+}
+.latest-deals-image img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.latest-deals-image{
+    width: 100%;
+    height: 100%;
+}
+.latest-deals-right{
+    height: 100%;
+}
+.latest-deals-left-up,
+.latest-deals-left-down,
+.latest-deals-right {
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4); 
+    border-radius: 20px;
+}
+.latest-deals-left h3{
+    font-size: 20px;
+}
+.latest-deals-left a{
+    font-size: 16px;
+    color: white;
+}
+.latest-deals-right h3{
+    font-size: 40px;
+}
+.latest-deals-right a{
+    font-size: 28px;
+    color: white;
+}
+
+/* join Bunch */
+.join-bunch img{
+    width: 100%;
+    height: auto;
+}
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+.join-bunch{
+    position: relative;
+}
+.join-bunch-content{
+   top: 0px;
+    left: 0px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+     color: white;
+    background: rgba(0, 0, 0, 0.4); 
+}
+.join-bunch-content h1{
+    font-size: 50px;
+}
+.join-bunch-submit{
+    display: flex;
+    gap: 0px;
+
+}
+.join-bunch-submit input{
+    width: 644px;
+    height: 50px;
+    padding-left: 20px;
+}
+.join-bunch-submit button{
+    width: 186px;
+    height: 60px;
+    background-color: #E95A08;
+    color: white;
+    font-weight: 600;
+}
+.join-bunch-section{
+    margin-top: 44.5px;
+}
 
 /* footer */
 .footer{
@@ -270,6 +386,107 @@
     width: 100%;
     max-width: 100%;
   }
+  /* flower-plant */
+  .flower-plant {
+    flex-direction: column;
+    margin-left: 17px;
+    margin-right: 17px;
+    gap: 0px;
+    margin-top: 41.5px; 
+  }
+  .flower-plant-left, .flower-plant-right{
+    width: 100%;
+  }
+  .flower-plant-right{
+    margin-left: 0px;
+  }
+  .flower-plant-right br{
+    display: none;
+  }
+  .flower-li{
+    padding: 25px;
+  }
+  
+.flower-plant-right h2{
+    font-size: 24px;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+
+.flower-plant-discription{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+  
+
+
+/* latest deals */
+  .latest-deals {
+    margin-top: 100px; 
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .deals-discription{
+    font-size: 14px;
+    margin-top: 16px;
+  }
+  .deals-title{
+    font-size: 24px;
+  }
+  .latest-deals-image {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    height: auto;
+    margin-top: 51px;
+  }
+  .latest-deals-left {
+    grid-template-rows: auto;
+  }
+
+  .latest-deals-left-up,
+  .latest-deals-left-down,
+  .latest-deals-right {
+    height: auto;
+  }
+   .latest-deals-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .latest-deals-right h3 {
+    font-size: 24px;
+  }
+
+  .latest-deals-right a {
+    font-size: 18px;
+  }
+
+  /* join bunch */
+  .join-bunch img{
+    width: 100%;
+    height: 275px;
+  }
+  .join-bunch-content h1 {
+    font-size: 20px;
+  }
+
+  .join-bunch-submit {
+    width: 321px;
+  }
+.join-bunch-submit input{
+    width: 218px;
+}
+.join-bunch-submit button{
+    width: 103px;
+    height: 50px;
+}
+  .join-bunch-submit input,
+  .join-bunch-submit button {
+    width: 321px;
+    height: 48px;
+  }
+
   /* footer */
   .footer{
     display: flex;
